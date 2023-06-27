@@ -1,0 +1,49 @@
+<!-- <div class="grid-container vh-100">
+  <div class="title">Requerimientos</div>
+  <div class="menu-item">menu</div>
+  <div class="filtros">
+    <app-filtros></app-filtros>
+  </div>
+  <div class="tabla-contenido">tabla</div>
+</div> -->
+
+
+
+<div class="filters">
+  <h2 class="title">Filtros de Búsqueda</h2>
+
+  <div class="search-filter">
+    <input type="text" placeholder="Buscar por descripción o ID" class="search-input">
+    <button class="search-button">Buscar</button>
+  </div>
+
+  <div class="category-filter">
+    <label class="filter-label">Creador:</label>
+    <select class="filter-select">
+      <option value="">Todos</option>
+      <option value="usuario1">Usuario 1</option>
+      <option value="usuario2">Usuario 2</option>
+      <option value="usuario2">Usuario 3</option>
+    </select>
+  </div>
+
+  <div class="category-filter">
+    <label class="filter-label">Fecha de creación:</label>
+    <input type="date" class="filter-input">
+  </div>
+
+  <div class="category-filter">
+    <label class="filter-label">Compañía:</label>
+    <input type="text" placeholder="Nombre de la compañía" class="filter-input">
+  </div>
+
+  <div class="id-filter">
+    <label class="filter-label">ID del requerimiento:</label>
+    <input type="text" placeholder="ID del requerimiento" class="filter-input">
+  </div>
+
+  <div class="filter-actions">
+    <button class="reset-button">Restablecer</button>
+    <button class="apply-button">Aplicar filtros</button>
+  </div>
+</div>
