@@ -19,7 +19,7 @@
 
     <div class="tabla">
 
-      <table datatable [dtOptions]="dtOptions" class="table table-hover">
+      <table datatable [dtOptions]="dtOptions" *ngIf="lista_requerimientos.length>0"  class="table table-hover">
 
         <thead>
           <tr>
@@ -50,8 +50,18 @@
         </tbody>
         
       </table>
+
+      <div class="info" *ngIf="lista_requerimientos.length == 0">
+        <h3>
+          No se puedo encontrar la informacion solicitada.
+        </h3>
+      </div>
       
     </div>
+
+    <footer class="pie">
+      <app-footer></app-footer>
+    </footer>
 
   </div>
 </body>
