@@ -1,0 +1,132 @@
+{
+    "requerimiento": [
+        {
+            "Id": 1,
+            "Autor": "Usuario A",
+            "Sucursal": "Medellín",
+            "Estado": "En progreso",
+            "Descripcion": "Corrección de errores de la aplicación",
+            "FechaCrea": "15/06/2023"
+        },
+        {
+            "Id": 2,
+            "Autor": "Usuario B",
+            "Sucursal": "Bogotá",
+            "Estado": "Pendiente",
+            "Descripcion": "Implementar funcionalidad de inicio de sesión",
+            "FechaCrea": "18/06/2023"
+        },
+        {
+            "Id": 3,
+            "Autor": "Usuario C",
+            "Sucursal": "Cali",
+            "Estado": "Completado",
+            "Descripcion": "Optimizar rendimiento del sistema",
+            "FechaCrea": "20/06/2023"
+        },
+        {
+            "Id": 4,
+            "Autor": "Usuario D",
+            "Sucursal": "Barranquilla",
+            "Estado": "En progreso",
+            "Descripcion": "Agregar nuevas funcionalidades al panel de administración",
+            "FechaCrea": "22/06/2023"
+        },
+        {
+            "Id": 5,
+            "Autor": "Usuario E",
+            "Sucursal": "Medellín",
+            "Estado": "Pendiente",
+            "Descripcion": "Resolver incidencias reportadas por los usuarios",
+            "FechaCrea": "25/06/2023"
+        },
+        {
+            "Id": 6,
+            "Autor": "Usuario F",
+            "Sucursal": "Bogotá",
+            "Estado": "En progreso",
+            "Descripcion": "Mejorar la interfaz de usuario del sistema",
+            "FechaCrea": "28/06/2023"
+        },
+        {
+            "Id": 7,
+            "Autor": "Usuario G",
+            "Sucursal": "Cali",
+            "Estado": "Pendiente",
+            "Descripcion": "Realizar pruebas de rendimiento del sistema",
+            "FechaCrea": "02/07/2023"
+        },
+        {
+            "Id": 8,
+            "Autor": "Usuario H",
+            "Sucursal": "Bogotá",
+            "Estado": "Completado",
+            "Descripcion": "Actualizar base de datos del sistema",
+            "FechaCrea": "05/07/2023"
+        },
+        {
+            "Id": 9,
+            "Autor": "Usuario I",
+            "Sucursal": "Medellín",
+            "Estado": "En progreso",
+            "Descripcion": "Agregar funcionalidad de exportación de datos",
+            "FechaCrea": "07/07/2023"
+        },
+        {
+            "Id": 10,
+            "Autor": "Usuario J",
+            "Sucursal": "Barranquilla",
+            "Estado": "Pendiente",
+            "Descripcion": "Resolver incidencias de seguridad del sistema",
+            "FechaCrea": "10/07/2023"
+        },
+        {
+            "Id": 11,
+            "Autor": "Usuario K",
+            "Sucursal": "Cali",
+            "Estado": "En progreso",
+            "Descripcion": "Implementar funcionalidad de chat en línea",
+            "FechaCrea": "12/07/2023"
+        },
+        {
+            "Id": 12,
+            "Autor": "Usuario L",
+            "Sucursal": "Bogotá",
+            "Estado": "Pendiente",
+            "Descripcion": "Mejorar la interfaz de usuario del módulo de ventas",
+            "FechaCrea": "15/07/2023"
+        },
+        {
+            "Id": 13,
+            "Autor": "Usuario M",
+            "Sucursal": "Medellín",
+            "Estado": "Completado",
+            "Descripcion": "Realizar pruebas de integración con otros sistemas",
+            "FechaCrea": "18/07/2023"
+        },
+        {
+            "Id": 14,
+            "Autor": "Usuario N",
+            "Sucursal": "Barranquilla",
+            "Estado": "En progreso",
+            "Descripcion": "Agregar funcionalidad de generación de informes",
+            "FechaCrea": "20/07/2023"
+        },
+        {
+            "Id": 15,
+            "Autor": "Usuario O",
+            "Sucursal": "Cali",
+            "Estado": "Pendiente",
+            "Descripcion": "Optimizar algoritmo de búsqueda en el sistema",
+            "FechaCrea": "23/07/2023"
+        },
+        {
+            "Id": 16,
+            "Autor": "Usuario P",
+            "Sucursal": "Bogotá",
+            "Estado": "Completado",
+            "Descripcion": "Mejorar la seguridad del acceso al sistema",
+            "FechaCrea": "26/07/2023"
+        }
+    ]
+}

@@ -1,49 +1,59 @@
-<!-- <div class="grid-container vh-100">
-  <div class="title">Requerimientos</div>
-  <div class="menu-item">menu</div>
-  <div class="filtros">
-    <app-filtros></app-filtros>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+
+<body>
+  <div class="grid-container">
+
+    <div class="filtros">
+
+      <!-- <app-filtros></app-filtros> -->
+      <app-filtros1></app-filtros1>
+
+    </div>
+
+    <div class="tabla">
+
+      <table datatable [dtOptions]="dtOptions" class="table table-hover">
+
+        <thead>
+          <tr>
+            <th>Id</th>
+            <th>Autor</th>
+            <th>Sucursal</th>
+            <th>Estado</th>
+            <th>Descripcion</th>
+            <th>Fecha creacion</th>
+            <th>Acciones</th>
+          </tr>
+        </thead>
+
+        <tbody>
+          <tr *ngFor="let req of lista_requerimientos">
+            <td>{{req.Id}}</td>
+            <td>{{req.Autor}}</td>
+            <td>{{req.Sucursal}}</td>
+            <td>{{req.Estado}}</td>
+            <td>{{req.Descripcion}}</td>
+            <td>{{req.FechaCrea}}</td>
+            <td>
+              <div class="grupo-botones">
+                <button class="btn btn-success">Ver</button>
+              </div>
+            </td>
+          </tr>
+        </tbody>
+        
+      </table>
+      
+    </div>
+
   </div>
-  <div class="tabla-contenido">tabla</div>
-</div> -->
+</body>
 
-
-
-<div class="filters">
-  <h2 class="title">Filtros de Búsqueda</h2>
-
-  <div class="search-filter">
-    <input type="text" placeholder="Buscar por descripción o ID" class="search-input">
-    <button class="search-button">Buscar</button>
-  </div>
-
-  <div class="category-filter">
-    <label class="filter-label">Creador:</label>
-    <select class="filter-select">
-      <option value="">Todos</option>
-      <option value="usuario1">Usuario 1</option>
-      <option value="usuario2">Usuario 2</option>
-      <option value="usuario2">Usuario 3</option>
-    </select>
-  </div>
-
-  <div class="category-filter">
-    <label class="filter-label">Fecha de creación:</label>
-    <input type="date" class="filter-input">
-  </div>
-
-  <div class="category-filter">
-    <label class="filter-label">Compañía:</label>
-    <input type="text" placeholder="Nombre de la compañía" class="filter-input">
-  </div>
-
-  <div class="id-filter">
-    <label class="filter-label">ID del requerimiento:</label>
-    <input type="text" placeholder="ID del requerimiento" class="filter-input">
-  </div>
-
-  <div class="filter-actions">
-    <button class="reset-button">Restablecer</button>
-    <button class="apply-button">Aplicar filtros</button>
-  </div>
-</div>
+</html>

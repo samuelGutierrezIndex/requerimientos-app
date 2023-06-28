@@ -1,0 +1,111 @@
+<div class="filtros">
+
+    <div class="list-filtros">
+
+        <div class="titulo">
+            <h3>
+                Filtros de Busqueda
+            </h3>
+        </div>
+
+        <div class="menu">
+            <ul>
+                <li>
+                    <div>
+                        <label for="codigo">Id:</label>
+                        <input type="number" name="codigo" id="codigo" placeholder="Codigo" alt="Id requerimiento">
+                    </div>
+                </li>
+                <li>
+                    <div>
+                        <label for="sucursal">Sucursal:</label>
+                        <select id="sucursal" alt="Sucursal requerimiento">
+                            <option value="">Todas</option>
+                            <option value="usuario1">Bucaramanga</option>
+                            <option value="usuario2">Bogota</option>
+                            <option value="usuario2">Medellin</option>
+                            <option value="usuario2">Barranquilla</option>
+                        </select>
+                    </div>
+                </li>
+                <li>
+                    <div>
+                        <label for="autor">Autor:</label>
+                        <select id="autor" alt="Creador requerimiento">
+                            <option value="">Todos</option>
+                            <option value="usuario1">Usuario 1</option>
+                            <option value="usuario2">Usuario 2</option>
+                            <option value="usuario2">Usuario 3</option>
+                            <option value="usuario2">Usuario 4</option>
+                        </select>
+                    </div>
+                </li>
+                <li>
+                    <div>
+                        <label for="estado">Estado:</label>
+                        <select id="estado" alt="Estado requerimiento">
+                            <option value="">Todas</option>
+                            <option value="usuario1">Rechazado</option>
+                            <option value="usuario2">Aprobado</option>
+                            <option value="usuario2">Solucionado</option>
+                            <option value="usuario2">Pendiente</option>
+                            <option value="usuario2">En espera</option>
+                        </select>
+                    </div>
+                </li>
+                <li>
+                    <div>
+                        <label for="fechaCrea">Fecha fin:</label>
+                        <input type="date" id="fechaCrea" name="fechaCrea" alt="Fecha creacion">
+                    </div>
+                </li>
+                <li>
+                    <div>
+                        <label for="fechaCrea">Fecha fin:</label>
+                        <input type="date" id="fechaCrea" name="fechaCrea" alt="Fecha creacion">
+                    </div>
+                </li>
+
+
+
+                <!-- solo se muestra en esta posicion en pantallas grandes -->
+                <li class="descrip-pantallas-grandes">
+                    <div>
+                        <label for="descrip">Descripcion:</label>
+                        <input type="text" name="descrip" id="descrip" placeholder="Descripcion">
+                    </div>
+                </li>
+                <!-- solo se muestra en esta posicion en pantallas grandes -->
+                <li class="btn-pantallas-grandes">
+                    <div class="opciones-btn">
+                        <button class="btn btn-success">Aplicar</button>
+                        <button class="btn btn-danger">Remover</button>
+                    </div>
+                </li> 
+
+            </ul>
+
+
+            <!-- solo se muestra en esta posicion en pantallas pequeñas -->
+            <ul class="mostrar">
+                
+                <li>
+                    <div>
+                        <label for="descrip">Descripcion:</label>
+                        <input type="text" name="descrip" id="descrip" placeholder="Descripcion">
+                    </div>
+                </li>
+                <li class="contenedor-btn">
+                    <div class="opciones-btn">
+                        <button class="btn btn-success">Aplicar</button>
+                        <button class="btn btn-danger">Remover</button>
+                    </div>
+                </li> 
+
+            </ul>
+
+        </div>
+
+    </div>
+
+</div>
